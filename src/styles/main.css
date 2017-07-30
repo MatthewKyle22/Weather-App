@@ -1,0 +1,30 @@
+body {
+  background: url('/assets/clouds.jpeg')no-repeat center center;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+/*outter most div*/
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+/*surrounds weather & header components*/
+.textWrapper {
+  border: 2px solid #FFFEED;
+  border-radius: 7px;
+  padding: 5%;
+  background: rgba(255, 255, 255, 0.4);
+  color: #2A2A29;
+}
+.weather h2, h3 {
+  text-align: center;
+}
+.header h1 {
+  text-align: center;
+}
+h1, h2, h3 {
+  font-family: sans-serif;
+}
